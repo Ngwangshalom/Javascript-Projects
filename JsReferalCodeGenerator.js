@@ -24,6 +24,7 @@ function logReferralCodes(totalUsers) {
         const currentBatchSize = Math.min(batchSize, remainingUsers);
         const referralCodes = generateReferralCodesBatch(currentBatchSize);
 
+        
         console.log(`Batch ${processedUsers / batchSize + 1}:`);
         referralCodes.forEach((code, index) => {
             console.log(`${processedUsers + index + 1}: ${code}`);
