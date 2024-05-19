@@ -3,6 +3,7 @@ const operator = prompt("Enter operator (+, -, *, /):");
 const num2 = parseFloat(prompt("Enter second number:"));
 let result;
 
+
 switch (operator) {
     case '+':
         result = num1 + num2;
