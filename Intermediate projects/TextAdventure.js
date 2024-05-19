@@ -6,6 +6,7 @@ const rooms = {
 
 let currentRoom = "start";
 
+
 function play() {
     while (true) {
         console.log(rooms[currentRoom].description);
