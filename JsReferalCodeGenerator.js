@@ -34,5 +34,5 @@ function logReferralCodes(totalUsers) {
     }
 }
 
-// Generate and log referral codes for 10 million users
+
 logReferralCodes(10000000);
