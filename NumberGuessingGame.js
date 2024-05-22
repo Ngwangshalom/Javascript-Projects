@@ -27,6 +27,7 @@ function askGuess() {
             console.log("Congratulations! You guessed it right.");
             rl.close();
         }
+        
     });
 }
 
