@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+    <style>
+        .button{
+            background-color: black;
+            width:140px;
+            height:40px;
+            border-radius: 5px;
+            font-size: larger ;
+            /* font-style: italic; */
+            color: #FFF;
+            border-width: 1px;
+            border-color: gray;
+           
+        }
+        .button:hover{
+            background-color: white;
+            width:140px;
+            height:40px;
+            border-radius: 5px;
+            font-size: larger ;
+            /* font-style: italic; */
+            color: #000;
+            border-width: 1px;
+            border-color: gray;
+            box-shadow: 0px 0px 0px 4px rgba(0,0,0,0.5);
+            animation-name:donation 2s ease-in-out infinite;
+           }
+        
+        @keyframes donation {
+            0%{
+                transform: translate(2deg);
+
+            }
+            100%{
+
+            }
+            
+        }
+     
+    </style>
+</head>
+<body>
+    
+    <button class="button">
+        <p1>Login</p1>
+    </button>
+</body>
+</html>
