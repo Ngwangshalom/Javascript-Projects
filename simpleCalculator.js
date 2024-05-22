@@ -1,6 +1,6 @@
-const num1 = parseFloat(prompt("Enter first number:"));
-const operator = prompt("Enter operator (+, -, *, /):");
-const num2 = parseFloat(prompt("Enter second number:"));
+const num1 = parseFloat(log("Enter first number:"));
+const operator = log("Enter operator (+, -, *, /):");
+const num2 = parseFloat(log("Enter second number:"));
 let result;
 
 switch (operator) {
