@@ -30,6 +30,7 @@ function logReferralCodes(totalUsers) {
             console.log(`${processedUsers + index + 1}: ${code}`);
         });
 
+        
         processedUsers += currentBatchSize;
     }
 }
