@@ -21,6 +21,7 @@ switch (operator) {
         break;
 }
 
+
 if (result !== undefined) {
     console.log(`${num1} ${operator} ${num2} = ${result}`);
 }
