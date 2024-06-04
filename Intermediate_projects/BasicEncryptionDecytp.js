@@ -12,6 +12,7 @@ function caesarCipher(str, shift) {
     }).join("");
 }
 
+
 const message = console.log("Enter a message to enc:");
 const shift = parseInt(console.log("Enter a shift value:"));
 const encryptedMessage = caesarCipher(message, shift);
