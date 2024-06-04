@@ -14,7 +14,6 @@ console.log("Guess a number between 1 and 100:");
 function askGuess() {
     rl.question('Your guess: ', (answer) => {
         guess = parseInt(answer);
-
         if (isNaN(guess)) {
             console.log("Please enter a valid number.");
             askGuess();
