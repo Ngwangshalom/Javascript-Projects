@@ -29,8 +29,6 @@ function logReferralCodes(totalUsers) {
         referralCodes.forEach((code, index) => {
             console.log(`${processedUsers + index + 1}: ${code}`);
         });
-
-        
         processedUsers += currentBatchSize;
     }
 }
