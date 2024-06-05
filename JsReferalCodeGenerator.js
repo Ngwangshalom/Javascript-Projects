@@ -34,5 +34,4 @@ function logReferralCodes(totalUsers) {
 }
 
 
-
 logReferralCodes(10000000);
