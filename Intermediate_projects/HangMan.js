@@ -9,6 +9,7 @@ function display() {
     console.log(`Guesses left: ${remainingGuesses}`);
     console.log(`Guessed letters: ${guessedLetters.join(", ")}`);
 }
+
 while (remainingGuesses > 0 && displayWord.includes("_")) {
     display();
     const guess = prompt("Guess a letter:").toLowerCase();
