@@ -5,6 +5,8 @@ function displayDay(){
 
     const todaysDay = days[todayDay.getDay()];
 
+
+    
     console.log("the day of today is " + todaysDay);
 }
 displayDay();
