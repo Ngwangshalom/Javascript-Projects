@@ -3,7 +3,6 @@ const rooms = {
     hallway: { description: "You are in a hallway. There are doors to the south and east.", south: "start", east: "treasureRoom" },
     treasureRoom: { description: "You found the treasure room! You win!", north: "hallway" }
 };
-
 let currentRoom = "start";
 function play() {
     while (true) {
