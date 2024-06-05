@@ -8,7 +8,6 @@ $array = array(
     array("const", "Hey", 10),
     array("veteran", "Sugar", 30)
 );
-
 $array[0][2];
 $array[0][1];
 $array[1][2];
